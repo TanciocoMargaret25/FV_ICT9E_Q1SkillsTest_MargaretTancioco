@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Q1 Skills Test</title>
+    <style>
+        span{
+            color: rgb(199, 93, 134);
+        }
+
+        body {
+	    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	    text-align: center;
+        color: rgb(1, 1, 1);
+        display: block;
+        padding: 15px;
+        background-color: rgb(209, 179, 237);
+	    }
+
+        .everything{
+            background: linear-gradient(180deg, white 60%, rgb(251, 239, 255));    
+            width: 50%;
+            height: 55%;
+            margin: auto;
+            border-radius: 5%;
+            display: block;
+            padding-top: 30px;
+            padding-bottom: 15px;
+        }
+
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        
+        .up{
+            text-align:center;
+            margin: center;
+        }
+
+        .activities, .links, .form{
+            padding-top: 20px;
+
+            text-align: left;
+            margin-left: 10%;
+        }
+
+        footer{
+            padding-top: 20px;
+        }
+
+        h3{
+            color: rgb(147, 67, 169);
+        }
+
+        #name, #email{
+            width: 550px;
+            height: 20px;
+        }
+        
+        #sections{
+            height: 22px;
+            width: 100px;
+        }
+    
+        a:link{
+            color: rgb(25, 18, 225);
+        }
+
+        #submit{
+            color: white;
+            background-color: blueviolet;
+            border-color: black;
+            border-radius: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 122px;
+            height: 30px;
+        }
+
+        #reset{ 
+            color: black;
+            background-color: white;
+            border-color: black;
+            border-radius: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 40px;
+            height: 30px;
+        }
+
+        .buttons{
+            padding-top: 15px
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="everything">
+        <div class="up">
+        <img src="https://thumbs.dreamstime.com/b/gears-black-icon-white-background-vector-illustration-website-mobile-application-presentation-infographic-cogwheels-process-136088480.jpg">
+        <h1>OBMC Robotics Club Application Form</h1>
+            <p>Hello! Fill this form to sign up for <span>Robotics Club '26-'27!</span></p>
+        </div>
+
+        <div class="form">
+            <form action="select">
+                <label for id="name">Full name: </label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="e.g. Will Williams" required>
+                <br><br>
+
+                <label for id="email">Your email: </label>
+                <br>
+                <input type="text" id="email" name="email" placeholder="12345@gmail.com" required>
+                <br><br>
+                
+                <label for id="sections">Section & Grade Level:</label>
+                <br>
+                <select id="sections" name="g9">
+                    <option value="7Emerald">G7 Emerald</option>
+                    <option value="7Ruby">G7 Ruby</option>
+                    <option value="7Sapphire">G7 Sapphire</option>
+                    <option value="7Topaz">G7 Topaz</option>
+                    <option value="7Jade">G7 Jade</option>
+
+                    <option value="8Emerald">G8 Emerald</option>
+                    <option value="8Ruby">G8 Ruby</option>
+                    <option value="8Sapphire">G8 Sapphire</option>
+                    <option value="8Topaz">G8 Topaz</option>
+                    <option value="8Jade">G8 Jade</option>
+                    
+                    <option value="Emerald">G9 Emerald</option>
+                    <option value="Ruby">G9 Ruby</option>
+                    <option value="Sapphire">G9 Sapphire</option>
+                    <option value="Topaz">G9 Topaz</option>
+                    <option value="Jade">G9 Jade</option>
+                    </select>
+                <br><br>
+            
+                <label for="gender"> 
+                Gender:
+                </label>
+                <br>
+
+                <input type="radio" id="gender1" name="gender">
+                <label for id="gender1">Female</label>
+                <input type="radio" id="gender2" name="gender">
+                <label for id="gender1">Male</label>
+                <input type="radio" id="gender3" name="gender">
+                <label for id="gender1">Other</label>
+                
+                <br><br>
+                <div class="skills">
+                    <label for class="skills">What are you experienced in?</label>
+                    <br>
+                <input type="checkbox" id="skills" name="skills">
+                <label for id="skills">Coding</label>
+                <input type="checkbox" id="skills2" name="skills">
+                <label for id="skills2">Webpage design</label>
+                <input type="checkbox" id="skills3" name="skills">
+                <label for id="skills2">Electronics</label>
+                </div>
+
+                <br><br>
+                <label for id="joinreason">Why do would you like to join our club?</label>
+                <br>
+                <textarea id="joinreason" placeholder="I would like to join because..." rows="10" cols="70" required></textarea>
+                <br>
+
+        
+        </div>
+        <br>
+        
+        <div class="activities">
+        <h3>Activities that our club offers:</h3>
+            <ul>
+                <li>Beginner Brushbots</li>
+                <li>Clever Vibrobots</li>
+                <li>Recycled Materials Bot</li>
+            </ul>
+        </div>
+
+        <div class="links">
+        <h3>Links to help you out:</h3>
+            <ol>
+                <li>
+                    <a href="https://youtu.be/EAyzRmAKueE">
+                    How to start in robotics? The BEST intro to robotics!</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/H2hGMzj6Roo">Robotics for Kids | Robotics Tutorial for Beginners | How to Build a Robot?</a>
+                </li>
+            
+            </ol>
+            </div>
+
+            <div class="buttons">
+            <button type="submit" id="submit" name="submit">Submit your form!</button>
+            <input type="reset" id="reset" name="reset" value="reset">
+            </div>
+
+        </form>
+            
+            <footer>
+        <p id="foot"> 2026 Skills Test | Created by Margaret Tancioco 9 Emerald</p>
+    </footer>
+
+    </div>
+    
+<!--
+References:
+1.Cowen, A. (2025, March 24). 25+ Robotics Projects, Lessons, and Activities. Science Buddies. https://www.sciencebuddies.org/blog/robotics-lessons
+2.N.A. gears icon vector black. (n.d.). Dreamstime. https://dreamstime.com/gears-black-icon-white-background-vector-illustration-website-mobile-application-presentation-infographic-cogwheels-process-image136088480
+-->
+
+</body>
+
+</html>
